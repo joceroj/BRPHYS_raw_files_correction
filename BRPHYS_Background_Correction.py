@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 # ===============================================
 # Constants
 # ===============================================
-TRUNCATED_ROWS = 2010
-DOWNSAMPLED_ROWS = 335
+TRUNCATED_ROWS = 3000
+DOWNSAMPLED_ROWS = 500
 DOWNSAMPLE_FACTOR = TRUNCATED_ROWS // DOWNSAMPLED_ROWS
 
 

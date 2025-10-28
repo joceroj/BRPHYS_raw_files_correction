@@ -28,13 +28,13 @@ logger = logging.getLogger(__name__)
 # Constants
 # ================================
 EXPECTED_NUM_GATES = 201
-TRUNCATED_GATES = 2010
-DOWNSAMPLED_GATES = 335
+TRUNCATED_GATES = 3000
+DOWNSAMPLED_GATES = 500
 DOWNSAMPLE_FACTOR = TRUNCATED_GATES // DOWNSAMPLED_GATES
 RAY_HEADER_LEN = 5
 GATE_LINE_LEN = 4
 source_root = Path(
-    "/storage/research/actual01/disk1/urban/obs/LiDAR/Bristol/BRPHYS/2024/202403",
+    "/storage/research/actual01/disk1/urban/obs/LiDAR/Bristol/BRPHYS",
 )
 
 
