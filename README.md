@@ -24,11 +24,16 @@ Output files are stored in:
 
 This repository has three scripts to correct every type of `*.hpl` files:
 
-1) `BRPHYS_VAD_Stare_Correction.py` is useful to correct Raw `*.hpl` files -> VAD and Stare.
+1) `BRPHYS_VAD_Stare_Correction.py` is useful to correct Raw `*.hpl` files -> VAD and Stare. Type the following in the terminal:
 ```
 cd existing_repo
 python BRPHYS_VAD_Stare_Correction.py --prefix Wind
 python BRPHYS_VAD_Stare_Correction.py --prefix Stare
 ```
 
+2) `BRPHYS_Processed_Correction.py` is useful to correct Processed `*.hpl` files -> VAD. Type the following in the terminal:
+```
+cd existing_repo
+python BRPHYS_Processed_Correction.py
+```
 
