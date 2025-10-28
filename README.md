@@ -37,3 +37,8 @@ cd existing_repo
 python BRPHYS_Processed_Correction.py
 ```
 
+3) `BRPHYS_Background_Correction.py` is useful to correct Background `*.txt` files -> Stare. Type the following in the terminal:
+```
+cd existing_repo
+python BRPHYS_Background_Correction.py
+```
