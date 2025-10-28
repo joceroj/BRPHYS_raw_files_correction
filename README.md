@@ -16,7 +16,11 @@ This tool only works for files collected by Halo-photonics lidars. It is require
 
 Currently, this tool is useful to apply corrections to all `*.hpl` files found in the University of Reading server, in the following path:
 
-`path = /storage/research/actual01/disk1/urban/obs/LiDAR/Bristol/BRPHYS`
+`input_path = /storage/research/actual01/disk1/urban/obs/LiDAR/Bristol/BRPHYS`
+
+Output files are stored in:
+
+`outputh_path = /storage/research/actual01/disk1/urban/obs/LiDAR/Bristol/BRPHYS_co`
 
 This repository has three scripts to correct every type of `*.hpl` files:
 
